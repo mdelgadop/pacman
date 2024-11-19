@@ -5,7 +5,7 @@ class Personaje:
     def __init__(self, nombre: str):
         self.nombre = nombre
         self.__energia = 100  # Atributo privado
-    
+        
     @property
     def energia(self):
         return self.__energia
